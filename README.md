@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Payment Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the code for the **Payment Page** project, which is an assignment for the company Edyoda. The project aims to create a React web page with various components and an integrated payment page powered by Razorpay.
 
-## Available Scripts
+## Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## Introduction
+The **Payment Page** project is a web application that allows users to make payments using the Razorpay payment gateway. The application provides a user-friendly interface where users can enter their payment details, select the desired payment method, and complete the transaction securely.
 
-### `npm start`
+The main objective of this project is to demonstrate the integration of the Razorpay payment gateway into a React application and showcase the usage of various React components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+To run the project locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository to your local machine using the following command:
+   ```
+   git clone https://github.com/Tabhi109/payment-page.git
+   ```
 
-### `npm test`
+2. Navigate to the project directory:
+   ```
+   cd payment-page
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install the dependencies by running:
+   ```
+   npm install
+   ```
 
-### `npm run build`
+## Usage
+Once the installation is complete, you can start the development server and access the application in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Start the development server:
+   ```
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Open your web browser and visit `http://localhost:3000` to access the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
+The main technologies and libraries used in this project are as follows:
 
-### `npm run eject`
+- React: A JavaScript library for building user interfaces.
+- Razorpay: A payment gateway service for online payments.
+- HTML/CSS: For creating the web page layout and styling.
+- JavaScript: For implementing dynamic functionality and integrating with Razorpay API.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
+The project structure is organized as follows:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
+Contributions to the project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. Make sure to follow the project's code style and guidelines.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
