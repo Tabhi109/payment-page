@@ -98,7 +98,10 @@
     margin: 0%;
     margin-left : 17%;
 }
-
+#strike {
+    text-decoration: line-through;
+    
+}
 .infoContents {
     margin-top: 5rem;
     margin-left: 2.8rem;

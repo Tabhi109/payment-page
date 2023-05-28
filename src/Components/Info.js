@@ -8,7 +8,7 @@ const Info = () => {
   return (
     <div className='info-container'>
       <h3>Access Curated courses worth</h3>
-      <h3><b>&#8377;18,500</b> at just <b className='ed-head'>&#8377;99</b> per year!</h3>
+      <h3><b id='strike'>&#8377;18,500</b> at just <b className='ed-head'>&#8377;99</b> per year!</h3>
       <div className='infoContents'>
         <div className='infoItem'>
         <h5> <BsBook/> <b className='ed-head'>100+</b> Job relevant courses </h5>
