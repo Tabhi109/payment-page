@@ -5,6 +5,19 @@
     padding: 10px;
     margin-left: 1rem;
 }
+.selectS {
+    border: 1px solid #222;
+    border-width: 2px;
+}
+
+#first12th {
+    background: slategrey;
+}
+
+#offExp {
+    margin: 0%;
+    padding: 3px;
+}
 
 .selectSub {
     background: white;
@@ -12,19 +25,47 @@
     font-weight: 500;
     width: 100%;
     border: 1px solid #222;
-    padding: 0.5rem;
+    padding: 0.7rem;
     border-radius: 5px;
     margin: 10px 0;
     cursor: pointer;
     scroll-behavior: smooth;
+    text-align: left;
+    transition: 0.3s;
+}
+#first12th:disabled {
+    background: silver;
+    cursor: not-allowed;
+}
+
+#subsBtnAmt {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    font-weight: 500;
+    font-size: small;
+    text-align: right;
+}
+
+.selectSub:hover {
+    background: #222122;
+    color: white;
 }
 
 #paybtn {
-    margin-left: 30%;
+    margin-left: 5px;
+    width: 50%;
+}
+#cancelbtn {
+    width: 47%;
 }
 
 #price {
     align-items:flex-end;
+    text-align: right;
+    padding: 0%;
+    margin: 0%;
+    margin-left : auto;
 }
 
 #left {

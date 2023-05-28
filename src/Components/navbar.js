@@ -33,7 +33,7 @@ const Navbar = () => {
         <button className='search-icon'>
         <BsSearch/>
         </ button>
-        <button class="btn btn-outline-success my-2 my-sm-0" id ="login-btn" type="submit">Login</button>
+        <button class="btn btn-outline-secondary my-2 my-sm-0" id ="login-btn" type="submit">Login</button>
         <button class="btn btn-primary my-2 my-sm-0" id ="signup-btn" type="submit">Sign Up</button>
         </form>
   </div>
