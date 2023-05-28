@@ -1,22 +1,32 @@
 import React from 'react'
+import { useState } from 'react';
+import RadioPlans from './radioPlans';
 import './components.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const SelectSubscription = () => {
-    const amounts = [99,179,149];
-    const total_amount = amounts[0];
-    const disc = 18500 - total_amount;
+    const [selectedOption, setSelectedOption] = useState('plan2');
+   
+    const amounts = {
+        plan1: 99,
+        plan2: 179,
+        plan3: 149,
+        plan4: 99
+    }
+    
+    const totalAmount = amounts[selectedOption];
+    const handleChange = (e) => {
+        setSelectedOption(e.target.value);
+    }
+        const disc = 18500 - totalAmount;
   return (
     <>
     <div className='Selection'>
-    <label  className='selectSub'><input id="first12th" type="radio" disabled/><span id='offExp' class="badge text-bg-danger">offer expired</span> 12 Months Subscription <p id='subsBtnAmt'>&#8377;99</p></label>
-    <label className='selectSub'> <input type="radio" id="second12th"/><span id='offExp' class="badge text-bg-success">Recommended</span> 12 Months Subscription <p id='subsBtnAmt'>&#8377;179</p></label>
-    <label className='selectSub'> <input type="radio" id="sixMonths" />6 Months Subscription <p id='subsBtnAmt'>&#8377;149</p></label>
-    <label className='selectSub'><input id="threeMonths" type='radio'/>3 Months Subscription <p id='subsBtnAmt'>&#8377;99</p></label>
+        <RadioPlans selectedOption={selectedOption} handleChange={handleChange}/>
     </div>
     <div className='container mt-2'>
     <label>Subscription fee : </label> <b id='price'>&#8377; 18500</b><br/>
     <label>Discount : </label> <b id='price'>&#8377; {disc}</b> <br/>
-    <label><b>Total Amount</b> <i>(incl 18%gst)</i> : </label> <b id='price'>&#8377; {total_amount}</b>
+    <label><b>Total Amount</b> <i>(incl 18%gst)</i> : </label> <b id='price'>&#8377; {totalAmount}</b>
 
     </div>
 
