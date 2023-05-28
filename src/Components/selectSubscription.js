@@ -12,7 +12,7 @@ const SelectSubscription = () => {
         plan3: 149,
         plan4: 99
     }
-    
+
     const totalAmount = amounts[selectedOption];
     const handleChange = (e) => {
         setSelectedOption(e.target.value);
@@ -33,6 +33,9 @@ const SelectSubscription = () => {
 <div>
     <button id='cancelbtn' className='btn btn-outline-danger mt-4 mb-3'>Cancel</button>
     <button id='paybtn' className='btn btn-success mt-4 mb-3'>Proceed to pay</button>
+</div>
+<div>
+    <img src='https://signdesk.com/images/razorpay_logo.png' id="razorLogo" alt=''></img>
 </div>
 </>
   )

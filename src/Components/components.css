@@ -37,7 +37,15 @@
     background: silver;
     cursor: not-allowed;
 }
-
+#razorLogo {
+    background: grey;
+    width: 30%;
+    height: 20%;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 #subsBtnAmt {
     margin: 0;
     padding: 0;
