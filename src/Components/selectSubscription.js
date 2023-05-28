@@ -23,10 +23,11 @@ const SelectSubscription = () => {
     <div className='Selection'>
         <RadioPlans selectedOption={selectedOption} handleChange={handleChange}/>
     </div>
+    <hr></hr>
     <div className='container mt-2'>
-    <label>Subscription fee : </label> <b id='price'>&#8377; 18500</b><br/>
-    <label>Discount : </label> <b id='price'>&#8377; {disc}</b> <br/>
-    <label><b>Total Amount</b> <i>(incl 18%gst)</i> : </label> <b id='price'>&#8377; {totalAmount}</b>
+    <label className='showPrice'>Subscription fee :  <p id='subsBtnAmt'>&#8377; 18500</p></label><br/>
+    <label className='showPrice' id='discountprice'>Discount :  <p id='subsBtnAmt'>-&#8377; {disc}</p></label> <br/>
+    <label className='totalprice'><b>Total Amount</b> <i>(incl 18%gst)</i> : </label> <b id='price'>&#8377; {totalAmount}</b>
 
     </div>
 
