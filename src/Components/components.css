@@ -1,0 +1,62 @@
+.ed-head {
+    color: blue;
+}
+#navbar-head{
+    padding: 10px;
+    margin-left: 1rem;
+}
+
+.selectSub {
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+
+#paybtn {
+    margin-left: 30%;
+}
+
+#price {
+    align-items:flex-end;
+}
+
+#left {
+    text-align: justify;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#right {
+    text-align: right;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.infoContents {
+    margin-top: 5rem;
+    margin-left: 2.8rem;
+}
+.infoItem {
+    margin-top: 3rem;
+}
+.info-container {
+    margin-left: 3rem;
+}
+
+#login-btn {
+    margin-left: 20px;
+}
+#signup-btn {
+    margin-left: 5px;
+}
+
+.search-icon {
+    margin-left: 49rem;
+}

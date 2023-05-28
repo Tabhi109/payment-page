@@ -1,5 +1,15 @@
 .App {
-  background-image: url("images/background.png");
   display: flex;
   color: whitesmoke;
+}
+
+.payform {
+  background-color: white;
+  border-radius: 3%;
+  scroll-behavior: smooth;
+  color: black;
+  width: 10rem;
+  height: auto;
+  display :flex;
+  margin: 0 auto;
 }
